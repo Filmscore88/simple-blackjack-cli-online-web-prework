@@ -29,6 +29,7 @@ def initial_round
  x= deal_card+deal_card
 
     display_card_total(x)
+    x
 end
 def hit?(num)
   prompt_user
