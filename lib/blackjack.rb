@@ -18,7 +18,7 @@ def prompt_user
 end
 
 def get_user_input
-  gets 
+  gets.chomp 
 end
 
 def end_game(num)
@@ -35,7 +35,7 @@ end
 def hit?(num)
   prompt_user
   get_user_input 
-  if num=='s' then
+  if num=='s' 
     break
   
   elsif num=='h' then
