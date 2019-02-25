@@ -46,7 +46,7 @@ def hit?(num)
 end  
 end
  
-end
+
 
 def invalid_command
   puts "Please enter a valid command"
