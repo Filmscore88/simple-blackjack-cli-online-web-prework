@@ -35,16 +35,17 @@ end
 def hit?(num)
   prompt_user
   get_user_input 
-  if num=='s' 
+  if num=='s' then
+    break
+  end 
   elsif num=='h'do
     deal_card
     elsif number !== 'h'||'s'do
       invalid_command 
       prompt_user
-  end
+  
 end
 end 
-
 end
 
 def invalid_command
