@@ -38,7 +38,7 @@ def hit?(num)
   if num=='s' then
     break
   
-  elsif num=='h'do
+  elsif num=='h' then
     deal_card
     elsif number !== 'h'||'s'do
       invalid_command 
