@@ -53,6 +53,7 @@ end
 
 def runner
 welcome 
-
+card total= initial_round 
+prompt_user
 end
     
