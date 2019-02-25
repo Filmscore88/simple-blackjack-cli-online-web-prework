@@ -31,7 +31,7 @@ def initial_round
     display_card_total(x)
     x
 end
-def hit?(num)
+def hit?(current_card_total)
   prompt_user
   get_user_input 
   if num=='s' 
