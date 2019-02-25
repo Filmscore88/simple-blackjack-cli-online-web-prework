@@ -40,7 +40,7 @@ def hit?(num)
   
   elsif num=='h' then
     deal_card
-    elsif number !== 'h'||'s'do
+    elsif number != 'h'||'s'do
       invalid_command 
       prompt_user
 end  
