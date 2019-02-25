@@ -37,13 +37,13 @@ def hit?(num)
   get_user_input 
   if num=='s' then
     break
-  end 
+  
   elsif num=='h'do
     deal_card
     elsif number !== 'h'||'s'do
       invalid_command 
       prompt_user
-  
+end  
 end
 end 
 end
