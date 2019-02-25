@@ -53,7 +53,7 @@ end
 
 def runner
 welcome 
-card total= initial_round 
-prompt_user
+card_total= initial_round 
+hit(card_total)
 end
     
