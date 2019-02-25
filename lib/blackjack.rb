@@ -56,7 +56,8 @@ welcome
 card_total= initial_round 
 while card_total < 21 do 
   hit(card_total)
-  if card_total > 21 end_game (card_total)
+  if card_total > 21 do
+    end_game (card_total)
   end
 end
     
